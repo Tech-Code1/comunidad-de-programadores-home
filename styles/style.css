@@ -1,0 +1,10 @@
+:root {
+    /* Colors */
+    --dark-color-one: #0E0E0E;
+}
+
+.nav-container {
+    background-color: var(--dark-color-one);
+    height: 100px;
+    padding: 0 34px 0 34px;
+}
