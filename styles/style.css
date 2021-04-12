@@ -238,3 +238,32 @@
         font-size: var(--fourteen);
     }
 }
+
+.text-carrousel-one {
+    color: var(--color-white);
+    font-size: var(--twenty-four);
+    font-family: var(--text-titles);
+    margin-left: 34px;
+    width: 550px;
+}
+
+@media (max-width: 1399px) {
+    .text-carrousel-one {
+        font-size: var(--twenty);
+        width: 450px;
+    }
+}
+
+@media (max-width: 992px) {
+    .text-carrousel-one {
+        font-size: var(--eightteen);
+        width: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-carrousel-one {
+        font-size: var(--eightteen);
+        width: 420px;
+    }
+}
