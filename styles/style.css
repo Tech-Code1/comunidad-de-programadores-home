@@ -20,6 +20,7 @@
 
     /*font-family*/
     --text-titles: 'Righteous', cursive;
+    --text-body: 'K2D', sans-serif;
 }
 
 .nav-container {
@@ -165,10 +166,15 @@
     }
 }
 
+.content-bton-workshop-send {
+    width: 667px;
+}
+
 .box-btn-go-courses,
 .content-btn-discord,
 .content-btn-youtube,
-.content-btn-facebook {
+.content-btn-facebook,
+.content-bton-workshop-send {
     height: 50px;
     background:  linear-gradient(180deg, #1A6DFF 0%, #C822FF 100%);
     position: relative;
@@ -195,12 +201,14 @@
 .btn-go-courses,
 .btn-discord,
 .btn-youtube,
-.btn-facebook {
+.btn-facebook,
+.bton-workshop-send {
     width: 100%;
     height: 100%;
     border-radius: 3px;
     background: var(--dark-color-one);
     text-decoration: none;
+    border: none;
     color: var(--color-white);
     -webkit-text-stroke: 0.5px  var(--acent-one-color) ;
 }
@@ -349,4 +357,41 @@
         height: 49.35px;
         width: 270px ;
     }
+}
+
+.box-information {
+    background-color: var(--dark-color-one);
+    width: 1024px;
+    height: 466px;
+}
+
+.section-workshops {
+    margin: 0 36px;
+}
+
+.title-form {
+    font-size: var(--twenty-four);
+    color: var(--color-white);
+    font-family: var(--text-titles);
+}
+
+.inputs-workshops {
+    width: 300px;
+    height: 40px;
+    outline: none;
+    background: radial-gradient(110% 110% at 50% 50%, rgba(7, 240, 255, 0.26) 0%, rgba(7, 240, 255, 0) 100%), #1F2430;
+    border: none;
+    font-family: var(--text-body);
+    color: var(--acent-two-color);
+}
+
+.inputs-workshops::placeholder {
+    font-family: var(--text-body);
+    color: rgba(226, 223, 223, 0.22);
+}
+
+.label-text-form {
+    color: var(--color-white);
+    font-family: var(--text-titles);
+    font-size: var(--sixteen);
 }

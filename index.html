@@ -17,6 +17,11 @@
 			href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<!-- Section nav -->
@@ -96,6 +101,7 @@
 							<a
 								class="btn-discord pe-2 d-flex justify-content-center align-items-center"
 								href="https://discord.com/invite/programadores"
+								target="_blank"
 								><img
 									class="mx-2"
 									src="images/svg/Discord.svg"
@@ -109,6 +115,7 @@
 							<a
 								class="btn-youtube pe-2 d-flex justify-content-center align-items-center"
 								href="https://www.youtube.com/c/ComunidaddeProgramadores"
+								target="_blank"
 								><img
 									class="mx-2"
 									src="images/svg/YouTube.svg"
@@ -122,6 +129,7 @@
 							<a
 								href="https://www.facebook.com/groups/comunidad.programacion"
 								class="btn-facebook pe-2 d-flex justify-content-center align-items-center"
+								target="_blank"
 								><img
 									class="mx-2"
 									src="images/svg/Facebook.svg"
@@ -140,6 +148,76 @@
 			</a>
 			<div class="line-divide-body-two"></div>
 		</div>
+		<section class="row g-0 mt-5 section-workshops">
+			<div
+				class="d-flex col-xxl-6 box-information align-items-between p-4 justify-content-between"
+			>
+				<!-- decorator form -->
+				<div class="d-flex align-items-end">
+					<img src="images/svg/Decorator-form.svg" alt="Decoración del formulario" />
+				</div>
+
+				<!-- body form -->
+				<div class="d-flex flex-column justify-content-between align-items-center">
+					<h3 class="title-form">¿Quieres dar un taller en la comunidad?</h3>
+					<div class="d-flex flex-column">
+						<div class="d-flex">
+							<label class="d-flex flex-column me-5 label-text-form" for="">
+								Nombre
+								<input
+									class="inputs-workshops mt-2 px-2"
+									type="text"
+									name=""
+									id=""
+									placeholder="Jhon"
+								/>
+							</label>
+							<label class="d-flex flex-column ms-3 label-text-form" for="">
+								Apellido
+								<input
+									class="inputs-workshops mt-2 px-2"
+									type="text"
+									name=""
+									id=""
+									placeholder="Doe"
+								/>
+							</label>
+						</div>
+						<div class="d-flex mt-4">
+							<label class="d-flex flex-column me-5 label-text-form" for="">
+								Email
+								<input
+									class="inputs-workshops mt-2 px-2"
+									type="email"
+									name=""
+									id=""
+									placeholder="jhon.doe@gmail.com"
+								/>
+							</label>
+							<label class="d-flex flex-column ms-3 label-text-form" for="">
+								Tema del taller
+								<input
+									class="inputs-workshops mt-2 px-2"
+									type="text"
+									name=""
+									id=""
+									placeholder="Tips de CSS"
+								/>
+							</label>
+						</div>
+					</div>
+					<div class="content-bton-workshop-send">
+						<button class="bton-workshop-send">Enviar</button>
+					</div>
+				</div>
+
+				<!-- decorator form -->
+				<div class="d-flex align-items-start">
+					<img src="images/svg/Decorator-form.svg" alt="Decoración del formulario" />
+				</div>
+			</div>
+			<div class="col-xxl-6"></div>
+		</section>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
