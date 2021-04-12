@@ -27,11 +27,26 @@
     padding: 0 34px 0 34px;
 }
 
-.img-header-style {
+/* .img-header-style {
     height: 457px;
-    image-resolution: pixelated;
+    position: relative;
+    z-index: -1;
+}
+ */
+.content-img-banner {
+    height: 457px;
+    background: linear-gradient(180.08deg, #0E0E0E -9.98%, rgba(14, 14, 14, 0.0677083) 34.67%, rgba(14, 14, 14, 0) 66.73%, rgba(14, 14, 14, 0.943838) 99.93%), url(../images/jpg/img-banner-header.jpg) no-repeat;
+    background-size: cover;
 }
 
+/* .img-header-style:after {
+    content: "";
+    
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+}
+ */
 .content-info-courses {
     position: relative;
     background: var(--gray-color-one);
