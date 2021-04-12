@@ -11,8 +11,11 @@
 
     /*font-size*/
     --twenty-eight: 28px;
+    --twenty-four: 24px;
     --twenty: 20px;
     --eightteen: 18px;
+    --sixteen: 16px;
+    --fourteen: 14px;
 
     /*font-family*/
     --text-titles: 'Righteous', cursive;
@@ -34,6 +37,12 @@
     background: var(--gray-color-one);
     height: 457px;
     padding-right: 34px;
+}
+
+@media (max-width: 767px) {
+    .content-info-courses {
+        padding-left: 34px;
+    }
 }
 
 .content-info-courses::after {
@@ -64,6 +73,30 @@
     font-family: var(--text-titles);
 }
 
+@media (max-width: 1399px) {
+    .text-home-principal {
+        width: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-home-principal {
+        width: 340px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .text-home-principal {
+        font-size: var(--twenty-four);
+    }
+}
+
+@media (max-width: 767px) {
+    .text-home-principal{
+        font-size: var(--twenty);
+    }
+}
+
 .text-frontend {
     color: var(--color-green);
 }
@@ -80,10 +113,35 @@
     color: var(--acent-two-color);
     font-family: var(--text-titles);
     font-size: var(--twenty-eight);
+    z-index: 3;
+}
+
+@media (max-width: 1399px) {
+    .text-free {
+        font-size: var(--twenty-four);
+    }
+}
+
+@media (max-width: 767px) {
+    .text-free {
+        font-size: var(--twenty);
+    }
 }
 
 .box-btn-go-courses {
     width: 540px;
+}
+
+@media (max-width: 1399px) {
+    .box-btn-go-courses {
+        width: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .box-btn-go-courses {
+        width: 340px;
+    }
 }
 
 .box-btn-go-courses,
@@ -102,6 +160,15 @@
     background-clip: padding-box;
     font-family: var(--text-titles);
     font-size: var(--twenty);
+}
+
+@media (max-width: 767px) {
+    .box-btn-go-courses,
+    .content-btn-discord,
+    .content-btn-youtube,
+    .content-btn-facebook{
+    font-size: var(--sixteen);
+    }
 }
 
 .btn-go-courses,
@@ -132,9 +199,27 @@
     background-color: var(--acent-two-color);
 }
 
+@media (max-width: 1399px) {
+    .line-separator-header {
+        width: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .line-separator-header{
+        width: 340px;
+    }
+}
+
 .text-join {
     color: var(--color-white);
     font-family: var(--text-titles);
     font-size: var(--eightteen);
     z-index: 3;
+}
+
+@media (max-width: 767px) {
+    .text-join{
+        font-size: var(--fourteen);
+    }
 }
