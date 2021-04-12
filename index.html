@@ -12,11 +12,140 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="styles/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
+		<!-- Section nav -->
 		<nav class="d-flex container-fluid nav-container align-items-center">
 			<a href="index.html"><img src="images/svg/icono_principal.svg" alt="" /></a>
 		</nav>
+
+		<!-- Section carrousel -->
+		<header class="row g-0">
+			<div class="col-xl-8">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="0"
+							class="active bton-carrousel-style"
+							aria-current="true"
+							aria-label="Slide 1"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="1"
+							aria-label="Slide 2"
+							class="bton-carrousel-style"
+						></button>
+						<button
+							type="button"
+							data-bs-target="#carouselExampleIndicators"
+							data-bs-slide-to="2"
+							aria-label="Slide 3"
+							class="bton-carrousel-style"
+						></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img
+								src="images/jpg/img-banner-header.jpg"
+								class="d-block w-100 img-header-style img-fluid"
+								alt="..."
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/jpg/img-banner-header.jpg"
+								class="d-block w-100 img-header-style img-fluid"
+								alt="..."
+							/>
+						</div>
+						<div class="carousel-item">
+							<img
+								src="images/jpg/img-banner-header.jpg"
+								class="d-block w-100 img-header-style img-fluid"
+								alt="..."
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Section info courses -->
+			<div
+				class="d-flex flex-column col-xl-4 content-info-courses align-items-center justify-content-between"
+			>
+				<h1 class="text-home-principal mt-4">
+					Especializate Como <span class="text-frontend">Frontend Developer</span>,
+					<span class="text-backend">Backend Developer</span> o
+					<span class="text-full-stack">full stack Developer</span>
+				</h1>
+				<h2 class="text-free mt-3">Es totalmente Gratis</h2>
+				<div
+					class="d-flex align-items-center justify-content-center box-btn-go-courses mt-3"
+				>
+					<a
+						href=""
+						class="btn-go-courses d-flex align-items-center justify-content-center"
+						>Ir a los cursos</a
+					>
+				</div>
+				<div class="d-flex flex-column">
+					<div class="line-separator-header mt-4"></div>
+					<p class="d-flex align-items-start text-join mt-2">
+						Únete a nuestra comunidad:
+					</p>
+					<div class="d-flex justify-content-between mb-4">
+						<div
+							class="content-btn-discord d-flex justify-content-center align-items-center"
+						>
+							<a
+								class="btn-discord pe-2 d-flex justify-content-center align-items-center"
+								href="https://discord.com/invite/programadores"
+								><img
+									class="mx-2"
+									src="images/svg/Discord.svg"
+									alt="Icono Discord"
+								/>Únete</a
+							>
+						</div>
+						<div
+							class="content-btn-youtube d-flex justify-content-center align-items-center"
+						>
+							<a
+								class="btn-youtube pe-2 d-flex justify-content-center align-items-center"
+								href="https://www.youtube.com/c/ComunidaddeProgramadores"
+								><img
+									class="mx-2"
+									src="images/svg/YouTube.svg"
+									alt="Icono Youtube"
+								/>Suscríbete</a
+							>
+						</div>
+						<div
+							class="content-btn-facebook d-flex justify-content-center align-items-center"
+						>
+							<a
+								href="https://www.facebook.com/groups/comunidad.programacion"
+								class="btn-facebook pe-2 d-flex justify-content-center align-items-center"
+								><img
+									class="mx-2"
+									src="images/svg/Facebook.svg"
+									alt="Icono Facebook"
+								/>Únete</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

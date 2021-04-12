@@ -1,10 +1,140 @@
 :root {
     /* Colors */
     --dark-color-one: #0E0E0E;
+    --gray-color-one: #292929;
+    --acent-one-color: #4930EE;
+    --acent-two-color: #07F0FF;
+    --color-white: #fff;
+    --color-green: #28E547;
+    --color-orange: #ED930B;
+    --color-red: #F3305F;
+
+    /*font-size*/
+    --twenty-eight: 28px;
+    --twenty: 20px;
+    --eightteen: 18px;
+
+    /*font-family*/
+    --text-titles: 'Righteous', cursive;
 }
 
 .nav-container {
     background-color: var(--dark-color-one);
     height: 100px;
     padding: 0 34px 0 34px;
+}
+
+.img-header-style {
+    height: 457px;
+    image-resolution: pixelated;
+}
+
+.content-info-courses {
+    position: relative;
+    background: var(--gray-color-one);
+    height: 457px;
+    padding-right: 34px;
+}
+
+.content-info-courses::after {
+    content:"";
+    position:absolute;
+    width: 150px;
+    height: 100%;
+    background: var(--gray-color-one);
+    left: -80px;
+    top: 0px;
+    z-index: 2;
+    transform: skew(-10deg, 0deg);
+    }
+
+.bton-carrousel-style {
+    border-radius: 50%;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: var(--acent-two-color) !important;
+}
+
+.text-home-principal {
+    color: var(--color-white);
+    font-size: var(--twenty-eight);
+    position: relative;
+    z-index: 3;
+    width: 545px;
+    font-family: var(--text-titles);
+}
+
+.text-frontend {
+    color: var(--color-green);
+}
+
+.text-backend {
+    color: var(--color-orange);
+}
+
+.text-full-stack {
+    color: #F3305F;
+}
+
+.text-free {
+    color: var(--acent-two-color);
+    font-family: var(--text-titles);
+    font-size: var(--twenty-eight);
+}
+
+.box-btn-go-courses {
+    width: 540px;
+}
+
+.box-btn-go-courses,
+.content-btn-discord,
+.content-btn-youtube,
+.content-btn-facebook {
+    height: 50px;
+    background:  linear-gradient(180deg, #1A6DFF 0%, #C822FF 100%);
+    position: relative;
+    padding: 2px;
+    z-index: 3;
+    border-radius: 5px;
+    border: solid 2px transparent;
+    outline: none;
+    border-radius: 5px;
+    background-clip: padding-box;
+    font-family: var(--text-titles);
+    font-size: var(--twenty);
+}
+
+.btn-go-courses,
+.btn-discord,
+.btn-youtube,
+.btn-facebook {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    background: var(--dark-color-one);
+    text-decoration: none;
+    color: var(--color-white);
+    -webkit-text-stroke: 0.5px  var(--acent-one-color) ;
+}
+
+.btn-go-courses:hover, .btn-go-courses:visited, .btn-go-courses:link,
+.btn-discord:hover, .btn-discord:visited, .btn-discord:link,
+.btn-youtube:hover, .btn-youtube:visited, .btn-youtube:link,
+.btn-facebook:hover, .btn-facebook:visited, .btn-facebook:link {
+    color: var(--color-white);
+}
+
+
+.line-separator-header {
+    width: 540px;
+    height: 2px;
+    z-index: 3;
+    background-color: var(--acent-two-color);
+}
+
+.text-join {
+    color: var(--color-white);
+    font-family: var(--text-titles);
+    font-size: var(--eightteen);
+    z-index: 3;
 }
