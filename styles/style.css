@@ -5,6 +5,7 @@
     --base-color: #1F2430;
     --acent-one-color: #4930EE;
     --acent-two-color: #07F0FF;
+    --acent-color-three: #300A48;
     --color-white: #fff;
     --color-green: #28E547;
     --color-orange: #ED930B;
@@ -366,7 +367,7 @@
 }
 
 .section-workshops {
-    margin: 0 36px;
+    padding: 0 36px;
 }
 
 .title-form {
@@ -394,4 +395,80 @@
     color: var(--color-white);
     font-family: var(--text-titles);
     font-size: var(--sixteen);
+}
+
+.content-info-worshops-mentors {
+    height: 466px;
+    width: 806px;
+    background: linear-gradient(269.99deg, #4930EE -67.55%, #1F2430 138.83%);
+}
+
+.title-workshops {
+    font-size: var(--twenty-four);
+}
+
+.name-mentor-workshop,
+.time-title,
+.time {
+    font-size: var(--sixteen);
+}
+
+.title-workshop {
+    font-size: var(--twenty);
+}
+
+.title-workshops,
+.name-mentor-workshop,
+.title-workshop,
+.time-title,
+.time {
+    font-family: var(--text-titles);
+    color: var(--color-white);
+}
+
+.content-workshops-recent {
+    height: 330px;
+    width: 740px;
+    background-color: var(--acent-one-color);
+    padding: 32px 32px;
+}
+
+.content-btn-carrousel-workshop-one {
+    left: -25px;
+}
+
+.content-btn-carrousel-workshop-two {
+    right: -25px;
+}
+
+.content-btn-carrousel-workshop-one,
+.content-btn-carrousel-workshop-two {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--acent-color-three);
+    top: 140px;
+}
+
+.img-workshop {
+    height: 127px;
+    width: 127px;
+}
+
+.description-workshop {
+    color: var(--color-white);
+    font-size: var(--sixteen);
+    font-family: var(--text-body);
+    width: 520px;
+}
+
+.slide-item-workshop {
+    height: 100%;
+    width: 100%;
+}
+
+.line-divisor-time-event {
+    height: 1px;
+    width: 100%;
+    background-color: var(--color-white);
 }
