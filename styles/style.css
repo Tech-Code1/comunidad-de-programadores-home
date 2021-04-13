@@ -173,6 +173,10 @@
     width: 667px;
 }
 
+.content-btn-start-courses {
+    width: 441px;
+}
+
 @media (max-width: 1880px) {
     .content-bton-workshop-send {
         width: 567px ;
@@ -219,7 +223,8 @@
 .content-btn-discord,
 .content-btn-youtube,
 .content-btn-facebook,
-.content-bton-workshop-send {
+.content-bton-workshop-send,
+.content-btn-start-courses {
     height: 50px;
     background:  linear-gradient(180deg, #1A6DFF 0%, #C822FF 100%);
     position: relative;
@@ -238,7 +243,8 @@
     .box-btn-go-courses,
     .content-btn-discord,
     .content-btn-youtube,
-    .content-btn-facebook{
+    .content-btn-facebook,
+    .content-btn-start-courses {
     font-size: var(--sixteen);
     }
 }
@@ -247,7 +253,8 @@
 .btn-discord,
 .btn-youtube,
 .btn-facebook,
-.bton-workshop-send {
+.bton-workshop-send,
+.btn-start-courses {
     width: 100%;
     height: 100%;
     border-radius: 3px;
@@ -261,7 +268,8 @@
 .btn-go-courses:hover, .btn-go-courses:visited, .btn-go-courses:link,
 .btn-discord:hover, .btn-discord:visited, .btn-discord:link,
 .btn-youtube:hover, .btn-youtube:visited, .btn-youtube:link,
-.btn-facebook:hover, .btn-facebook:visited, .btn-facebook:link {
+.btn-facebook:hover, .btn-facebook:visited, .btn-facebook:link,
+.btn-start-courses:hover, .btn-start-courses:visited, .btn-start-courses:link {
     color: var(--color-white);
 }
 
@@ -789,4 +797,32 @@
 .content-global-form-workshops {
     padding-left: 34px;
     padding-right: 34px;
+}
+
+.section-certificate {
+    height: 567px;
+    width: 100%;
+    background-color: var(--dark-color-one);
+    padding: 0 34px;
+}
+
+.content-info-certificate {
+    width: 437px;
+    height: 374px;
+    background: linear-gradient(180.04deg, #4930EE -126.08%, rgba(73, 48, 238, 0) 99.97%);
+}
+
+.title-box-info-certificate {
+    font-size: var(--twenty);
+    text-align: center;
+}
+
+.title-box-info-certificate,
+.title-principal-section-certificate  {
+    font-family: var(--text-titles);
+    color: var(--color-white);
+}
+
+.title-principal-section-certificate {
+    font-size: var(--twenty-four);
 }
