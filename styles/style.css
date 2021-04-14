@@ -177,6 +177,24 @@
     width: 441px;
 }
 
+@media (max-width: 1480px) {
+    .content-btn-start-courses {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content-btn-start-courses {
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-btn-start-courses {
+        width: 200px;
+    }
+}
+
 @media (max-width: 1880px) {
     .content-bton-workshop-send {
         width: 567px ;
@@ -806,15 +824,57 @@
     padding: 0 34px;
 }
 
+@media (max-width: 767px) {
+    .section-certificate  {
+        height: auto;
+    }
+}
+
 .content-info-certificate {
     width: 437px;
     height: 374px;
     background: linear-gradient(180.04deg, #4930EE -126.08%, rgba(73, 48, 238, 0) 99.97%);
 }
 
+@media (max-width: 1480px) {
+    .content-info-certificate {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .content-info-certificate {
+        width: 250px;
+    }
+}
+
+@media (max-width: 900px) {
+    .content-info-certificate {
+        width: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content-info-certificate {
+        width: 437px;
+    }
+}
+
 .title-box-info-certificate {
     font-size: var(--twenty);
     text-align: center;
+}
+
+@media (max-width: 1540px) {
+    .title-box-info-certificate {
+        font-size: var(--eightteen);
+    }
+}
+
+@media (max-width: 1200px) {
+    .title-box-info-certificate {
+        font-size: var(--sixteen);
+    }
 }
 
 .title-box-info-certificate,
@@ -825,4 +885,46 @@
 
 .title-principal-section-certificate {
     font-size: var(--twenty-four);
+}
+
+@media (max-width: 1540px) {
+    .title-principal-section-certificate {
+        font-size: var(--twenty);
+    }
+}
+
+@media (max-width: 1540px) {
+    .title-principal-section-certificate {
+        font-size: var(--eightteen);
+    }
+}
+
+@media (max-width: 767px) {
+    .title-principal-section-certificate {
+        font-size: var(--sixteen);
+    }
+}
+
+.img-box-information-certificate {
+    width: 380px;
+    height: 221px;
+}
+
+@media (max-width: 1480px) {
+    .img-box-information-certificate {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.icon-certificate {
+    height: 96px;
+    width: 96px;
+}
+
+@media (max-width: 767px) {
+    .icon-certificate{
+        height: 80px;
+    width: 80px;
+    }
 }
